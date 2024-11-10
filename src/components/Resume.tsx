@@ -1,5 +1,4 @@
 import styles from "@/styles/Resume.module.css";
-import "@fortawesome/fontawesome-svg-core/styles.css";
 
 
 export default function Resume() {
