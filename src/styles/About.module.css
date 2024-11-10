@@ -1,0 +1,101 @@
+.aboutUs {
+  padding: 80px 0;
+  background-color: #f8f9fa;
+  display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.sectionTitle {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.sectionTitle h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.sectionTitle p {
+  font-size: 18px;
+  color: #777;
+}
+
+.aboutContent {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.aboutImage {
+  flex: 0 0 100%;
+  max-width: 100%;
+  margin-bottom: 30px;
+}
+
+.aboutImage img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.aboutText {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.aboutText h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.aboutText p {
+  margin-bottom: 15px;
+  color: #666;
+  line-height: 1.6;
+}
+
+.personalInfo {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.personalInfo li {
+  margin-bottom: 10px;
+  color: #666;
+}
+
+.personalInfo li i {
+  margin-right: 10px;
+  color: #007bff;
+}
+
+.personalInfo li b {
+  font-weight: 600;
+  margin-right: 5px;
+  color: #333;
+}
+
+@media (min-width: 768px) {
+  .aboutImage {
+    flex: 0 0 60%;
+    max-width: 40%;
+    margin-bottom: 0;
+  }
+
+  .aboutText {
+    flex: 0 0 40%;
+    max-width: 60%;
+    padding-left: 30px;
+  }
+}

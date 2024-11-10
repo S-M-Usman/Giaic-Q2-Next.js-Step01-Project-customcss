@@ -1,0 +1,138 @@
+.contact {
+  padding: 80px 0;
+  background-color: #f8f9fa;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.sectionTitle {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.sectionTitle h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.sectionTitle p {
+  font-size: 18px;
+  color: #777;
+}
+
+.contactWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.contactInfo,
+.contactForm {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.contactInfo h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.contactInfo p {
+  margin-bottom: 30px;
+  color: #666;
+}
+
+.contactList {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.contactList li {
+  margin-bottom: 15px;
+  color: #666;
+}
+
+.contactList li i {
+  margin-right: 10px;
+  color: #007bff;
+}
+
+.contactList li span {
+  font-weight: 600;
+  color: #333;
+}
+
+.socialIcons {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.socialIcons li {
+  margin-right: 15px;
+}
+
+.socialIcons a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-color: #007bff;
+  color: #fff;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+}
+
+.socialIcons a:hover {
+  background-color: #0056b3;
+}
+
+.formGroup {
+  margin-bottom: 20px;
+}
+
+.formGroup input,
+.formGroup textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.formGroup textarea {
+  height: 150px;
+  resize: vertical;
+}
+
+.submitBtn {
+  display: inline-block;
+  padding: 12px 30px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submitBtn:hover {
+  background-color: #0056b3;
+}
+
+@media (min-width: 768px) {
+  .contactInfo,
+  .contactForm {
+    flex: 0 0 48%;
+    max-width: 48%;
+  }
+}
